@@ -46,7 +46,6 @@ def invert_rate(rate):
     return round(1 / rate, 2) if rate and rate != 0 else None
 
 
-# ================= COMMANDS =================
 
 def cmd_dollar(data):
     # USD converter
@@ -119,7 +118,6 @@ def cmd_random(data):
         speak("Error processing random command")
 
 
-# ================= COMMAND PROCESSING =================
 
 def process_command(text, data):
     # Recognizing and executing a command
